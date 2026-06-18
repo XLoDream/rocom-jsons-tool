@@ -1,67 +1,153 @@
 import json
 import requests
 from bs4 import BeautifulSoup
+import time
 
-def scrape_fruit_data():
-    # 1. 目标网页URL
-    url = "https://wiki.biligame.com/rocom/%E7%B2%BE%E7%81%B5%E6%9E%9C%E5%AE%9E%E5%9B%BE%E9%89%B4"
-    
-    # 2. 发送请求获取网页内容
+def get_soup_from_url(url):
+    """
+    从网络URL获取网页内容并返回 BeautifulSoup 对象
+    """
+    headers = {
+        'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
+    }
     try:
-        # 设置请求头，模拟浏览器访问，避免被服务器拒绝
-        headers = {
-            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36'
-        }
         response = requests.get(url, headers=headers)
-        response.raise_for_status() # 如果响应状态码不是200，将抛出HTTPError异常
-        response.encoding = 'utf-8' # 确保使用正确的编码
-        html_content = response.text
-        print("网页下载成功！")
+        response.raise_for_status()
+        response.encoding = 'utf-8'
+        return BeautifulSoup(response.text, 'html.parser')
     except requests.exceptions.RequestException as e:
-        print(f"错误：下载网页时出现问题 - {e}")
-        return
+        print(f"错误：下载网页 {url} 时出现问题 - {e}")
+        return None
 
-    # 3. 使用 BeautifulSoup 解析 HTML
-    soup = BeautifulSoup(html_content, 'html.parser')
+def get_soup_from_file(file_path):
+    """
+    从本地HTML文件获取 BeautifulSoup 对象（用于调试）
+    """
+    try:
+        with open(file_path, 'r', encoding='utf-8') as f:
+            return BeautifulSoup(f, 'html.parser')
+    except Exception as e:
+        print(f"错误：读取本地文件 {file_path} 时出现问题 - {e}")
+        return None
 
-    # 4. 查找所有包含精灵果实信息的 div 元素
-    # 根据网页结构，这些信息都在 class 为 'divsort' 的 div 中
-    # 这比使用完整的XPath更稳定，因为XPath容易因页面微小改动而失效
-    fruit_divs = soup.find_all('div', class_='divsort')
-    
-    if not fruit_divs:
-        print("警告：未找到任何包含果实信息的元素。可能是网页结构已更改。")
-        return
+def scrape_fruits():
+    """
+    爬取精灵果实图鉴数据
+    """
+    url = "https://wiki.biligame.com/rocom/精灵果实图鉴"
+    print(f"正在抓取果实数据: {url}")
+    soup = get_soup_from_url(url)
+    if not soup:
+        return []
 
     fruits_data = []
+    # 根据网页结构，果实信息在 class 为 'divsort' 的 div 中
+    fruit_divs = soup.find_all('div', class_='divsort')
 
-    # 5. 遍历每个 div，提取名称和图片链接
     for div in fruit_divs:
-        # 提取果实名称
-        # 名称在 <p> 标签内的 <a> 标签里
-        name_tag = div.find('p', class_='rocom_prop_name').find('a')
-        name = name_tag.text.strip() if name_tag else None
-
-        # 提取图片 URL
-        # 图片链接在 <img> 标签的 src 属性中
+        # 提取名称
+        name_tag = div.find('p', class_='rocom_prop_name')
+        name = name_tag.find('a').text.strip() if name_tag and name_tag.find('a') else None
+        
+        # 提取图片链接
         img_tag = div.find('img', class_='rocom_prop_icon')
-        # 处理相对链接，将其转换为绝对链接
+        # 处理相对链接
         image_url = img_tag.get('src') if img_tag else None
         if image_url and image_url.startswith('/'):
             image_url = "https://wiki.biligame.com" + image_url
 
-        # 只有当名称和链接都存在时，才添加到结果列表中
         if name and image_url:
             fruits_data.append({
                 "name": name,
                 "image_url": image_url
             })
-
-    # 6. 将结果保存为 JSON 文件
-    with open('fruits.json', 'w', encoding='utf-8') as f:
-        json.dump(fruits_data, f, ensure_ascii=False, indent=2)
     
-    print(f"成功！共提取到 {len(fruits_data)} 个精灵果实的信息，已保存到 'fruits.json'。")
+    print(f"果实数据抓取完成，共 {len(fruits_data)} 条。")
+    return fruits_data
+
+def scrape_pokemon():
+    """
+    爬取精灵图鉴数据
+    """
+    # 注意：这里为了演示，我们使用本地文件。正式运行时请改回 get_soup_from_url
+    # url = "https://wiki.biligame.com/rocom/精灵图鉴"
+    # print(f"正在抓取精灵数据: {url}")
+    # soup = get_soup_from_url(url)
+    
+    print("正在从本地文件 1.html 解析精灵数据...")
+    soup = get_soup_from_file('1.html') # 使用本地文件进行测试
+
+    if not soup:
+        return []
+
+    pokemon_data = []
+
+    # 核心修复：通过查找所有带有 data-param1 属性的 div 来定位精灵卡片
+    # 这是精灵卡片独有的特征，非常稳健
+    pet_cards = soup.find_all('div', attrs={"data-param1": True})
+    
+    print(f"共找到 {len(pet_cards)} 个精灵卡片。")
+
+    for card in pet_cards:
+        # 1. 提取编号和阶数
+        # 编号和阶数在 class 为 'dex-card-kicker' 的 div 中
+        kicker_div = card.find('div', class_='dex-card-kicker')
+        if not kicker_div:
+            continue
+
+        # HTML 结构里编号和阶数被分成文本和 <span>，用 separator=' ' 将它们分开
+        kicker_text = kicker_div.get_text(separator=' ', strip=True)
+        parts = kicker_text.split(' ')
+        if len(parts) < 2:
+            continue
+        pokedex_id = parts[0].replace('NO.', '')
+        rank_info = parts[1]
+
+        # 2. 提取名称
+        # 名称在 class 为 'dex-card-name' 的 div 中的 <a> 标签里
+        name_container = card.find('div', class_='dex-card-name')
+        name_tag = name_container.find('a') if name_container else None
+        name = name_tag.text.strip() if name_tag else None
+        if not name:
+            continue
+
+        # 3. 提取图片链接
+        # 图片在 class 为 'dex-pet-art' 的 div 中的 <img> 标签里
+        # 注意：异色精灵有两个 img，我们取第一个（原始形态）
+        img_tag = card.find('div', class_='dex-pet-art').find('img')
+        image_url = img_tag.get('src') if img_tag else None
+        if not image_url:
+            continue
+        # 处理相对链接
+        if image_url.startswith('/'):
+            image_url = "https://wiki.biligame.com" + image_url
+
+        pokemon_data.append({
+            "id": pokedex_id,
+            "name": name,
+            "rank": rank_info,
+            "image_url": image_url
+        })
+
+    print(f"精灵数据解析完成，共 {len(pokemon_data)} 条。")
+    return pokemon_data
+
+def main():
+    # 1. 抓取果实数据
+    fruits = scrape_fruits()
+    if fruits:
+        with open('fruits.json', 'w', encoding='utf-8') as f:
+            json.dump(fruits, f, ensure_ascii=False, indent=2)
+        print("果实数据已保存到 fruits.json")
+    
+    # 2. 抓取精灵数据
+    # 为了避免对服务器造成压力，增加一点延迟
+    time.sleep(1)
+    pokemon = scrape_pokemon()
+    if pokemon:
+        with open('pokemon.json', 'w', encoding='utf-8') as f:
+            json.dump(pokemon, f, ensure_ascii=False, indent=2)
+        print("精灵数据已保存到 pokemon.json")
 
 if __name__ == '__main__':
-    scrape_fruit_data()
+    main()
