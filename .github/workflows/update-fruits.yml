@@ -3,26 +3,41 @@ on:
   schedule:
     - cron: '0 0 * * *'
   workflow_dispatch:
+
+# 关键：赋予actions读写仓库权限，否则推送403
+permissions:
+  contents: write
+
 jobs:
   scrape-and-commit:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
+        with:
+          # 关闭默认凭证，方便我们手动注入token
+          persist-credentials: false
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.x'
+
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install requests beautifulsoup4
+
       - name: Run scraping script
         run: python scrape_fruits.py
+
       - name: Commit and push if changed
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          # 注入GITHUB_TOKEN鉴权，解决403无权限
+          git remote set-url origin https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
+          
           git add fruits.json
           if git diff --staged --quiet; then
             echo "没有检测到数据更新，无需提交。"
