@@ -4,7 +4,7 @@ on:
     - cron: '0 0 * * *'
   workflow_dispatch:
 
-# 关键：赋予actions读写仓库权限，否则推送403
+# 授予读写文件权限，解决推送403
 permissions:
   contents: write
 
@@ -14,9 +14,7 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v4
-        with:
-          # 关闭默认凭证，方便我们手动注入token
-          persist-credentials: false
+        # 删除 persist-credentials: false，使用内置凭证
 
       - name: Set up Python
         uses: actions/setup-python@v4
@@ -35,13 +33,10 @@ jobs:
         run: |
           git config --global user.name 'github-actions[bot]'
           git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-          # 注入GITHUB_TOKEN鉴权，解决403无权限
-          git remote set-url origin https://${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git
-          
           git add fruits.json
           if git diff --staged --quiet; then
             echo "没有检测到数据更新，无需提交。"
           else
             git commit -m "chore: 自动更新精灵果实数据 [skip ci]"
-            git push
+            git push origin HEAD:main
           fi
