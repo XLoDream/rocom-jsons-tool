@@ -44,7 +44,7 @@ jobs:
             echo "=== 开始第 $i 次数据抓取尝试 ==="
             
             # 1. 运行抓取脚本
-            python scrape_fruits.py
+            python api.py
 
             # 2. 添加文件到暂存区，以便检查差异
             git add fruits.json pokemon.json live.json raw.json
