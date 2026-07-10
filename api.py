@@ -59,67 +59,96 @@ def scrape_fruits():
     print(f"果实数据抓取完成，共 {len(fruits_data)} 条。")
     return fruits_data
 
+IMAGE_BASE_URL = 'https://static.gamecenter.qq.com/xgame/roco-kingdom/compendium/a/i/'
+
 def scrape_pokemon():
     """
     爬取精灵图鉴数据
     """
-    url = "https://wiki.biligame.com/rocom/%E7%B2%BE%E7%81%B5%E5%9B%BE%E9%89%B4"
+    url = "https://wiki.biligame.com/rocom/index.php?title=Module:PetData/Core&action=raw"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36"
+    }
     print(f"正在抓取精灵数据: {url}")
-    soup = get_soup_from_url(url)
     
-    if not soup:
+    try:
+        resp = requests.get(url, headers=headers, timeout=30)
+        resp.raise_for_status()
+        raw_content = resp.text
+        print(f"成功获取原始数据，长度: {len(raw_content)} 字符")
+    except Exception as e:
+        print(f"获取网络数据失败: {e}")
         return []
 
+    blocks = []
+    pattern = re.compile(r'pet_(\d+)\s*=\s*\{')
+    pos = 0
+    while True:
+        match = pattern.search(raw_content, pos)
+        if not match:
+            break
+        pet_id = match.group(1)
+        brace_start = match.end() - 1
+        stack = []
+        i = brace_start
+        while i < len(raw_content):
+            ch = raw_content[i]
+            if ch == '{':
+                stack.append('{')
+            elif ch == '}':
+                if stack:
+                    stack.pop()
+                    if not stack:
+                        block = raw_content[brace_start+1:i]
+                        blocks.append((pet_id, block))
+                        break
+            i += 1
+        pos = i + 1 if i < len(raw_content) else len(raw_content)
+
+    print(f"共找到 {len(blocks)} 个精灵数据块。")
+
     pokemon_data = []
-
-    # 核心修复：通过查找所有带有 data-param1 属性的 div 来定位精灵卡片
-    # 这是精灵卡片独有的特征，非常稳健
-    pet_cards = soup.find_all('div', attrs={"data-param1": True})
-    
-    print(f"共找到 {len(pet_cards)} 个精灵卡片。")
-
-    for card in pet_cards:
-        # 1. 提取编号和阶数
-        # 编号和阶数在 class 为 'dex-card-kicker' 的 div 中
-        kicker_div = card.find('div', class_='dex-card-kicker')
-        if not kicker_div:
-            continue
-
-        # HTML 结构里编号和阶数被分成文本和 <span>，用 separator=' ' 将它们分开
-        kicker_text = kicker_div.get_text(separator=' ', strip=True)
-        parts = kicker_text.split(' ')
-        if len(parts) < 2:
-            continue
-        pokedex_id = parts[0].replace('NO.', '')
-        rank_info = parts[1]
-
-        # 2. 提取名称
-        # 名称在 class 为 'dex-card-name' 的 div 中的 <a> 标签里
-        name_container = card.find('div', class_='dex-card-name')
-        name_tag = name_container.find('a') if name_container else None
-        name = name_tag.text.strip() if name_tag else None
+    for pet_id, block in blocks:
+        name_match = re.search(r'n\s*=\s*"([^"]*)"', block)
+        name = name_match.group(1) if name_match else ""
         if not name:
             continue
 
-        # 3. 提取图片链接
-        # 图片在 class 为 'dex-pet-art' 的 div 中的 <img> 标签里
-        # 注意：异色精灵有两个 img，我们取第一个（原始形态）
-        img_tag = card.find('div', class_='dex-pet-art').find('img')
-        image_url = img_tag.get('src') if img_tag else None
-        if not image_url:
-            continue
-        # 处理相对链接
-        if image_url.startswith('/'):
-            image_url = "https://wiki.biligame.com" + image_url
+        shiny_match = re.search(r'hs\s*=\s*(true|false)', block, re.IGNORECASE)
+        is_shiny = shiny_match.group(1).lower() == "true" if shiny_match else False
+
+        il_match = re.search(r'img\s*=\s*\{[^}]*il\s*=\s*"([^"]*)"', block)
+        image_id = il_match.group(1) if il_match else ""
+
+        hb_match = re.search(r'hb\s*=\s*\{[^}]*i\s*=\s*"([^"]*)"', block)
+        handbook_id = hb_match.group(1) if hb_match else ""
+
+        static_url = ""
+        shiny_static_url = ""
+        if handbook_id and handbook_id.startswith("handbook_"):
+            num_str = handbook_id.replace("handbook_", "")
+            try:
+                pet_num = int(num_str)
+            except ValueError:
+                pet_num = 0
+            clean_name = re.sub(r'[（(][^）)]*[）)]', '', name).strip()
+            static_url = f"{IMAGE_BASE_URL}NO.{str(pet_num).zfill(3)}_{clean_name}.png"
+            if is_shiny:
+                shiny_static_url = f"{IMAGE_BASE_URL}NO.{str(pet_num).zfill(3)}_{clean_name}_shiny.png"
 
         pokemon_data.append({
-            "id": pokedex_id,
+            "id": f"pet_{pet_id}",
             "name": name,
-            "rank": rank_info,
-            "image_url": image_url
+            "rank": "",
+            "image_url": static_url,
+            "is_shiny": is_shiny,
+            "image_id": image_id,
+            "handbook_id": handbook_id,
+            "shiny_static_url": shiny_static_url
         })
 
-    print(f"精灵数据解析完成，共 {len(pokemon_data)} 条。")
+    shiny_count = sum(1 for p in pokemon_data if p["is_shiny"])
+    print(f"精灵数据解析完成，共 {len(pokemon_data)} 条，其中异色精灵 {shiny_count} 个。")
     return pokemon_data
 
 API_URL = 'https://rocokingdomworld.org/api/merchant/live'
