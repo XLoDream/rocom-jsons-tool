@@ -1,32 +1,15 @@
 {
   "sourceUrl": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetchedAt": "2026-08-10T13:35:02.524Z",
+  "fetchedAt": "2026-08-10T17:02:05.386Z",
   "timezone": "Asia/Shanghai",
-  "status": "open",
-  "round": 4,
-  "startedAtBeijing": "2026-08-10 20:00:00",
-  "nextRefreshBeijing": "2026-08-11 00:00:00",
-  "durationHours": 4,
+  "status": "closed",
+  "round": null,
+  "startedAtBeijing": null,
+  "nextRefreshBeijing": "2026-08-11 08:00:00",
+  "durationHours": 0,
   "merchantPosition": "",
   "live": true,
-  "current_items": [
-    {
-      "name": "国王球",
-      "price": "160000",
-      "priceRaw": "16w",
-      "limit": "3",
-      "image": "https://patchwiki.biligame.com/images/rocom/thumb/2/2e/jygbfxpdbup5weqy4zaqnyaw2fcfyrq.png/100px-100255.png",
-      "category": "咕噜球",
-      "description": "昂贵且好用的咕噜球，能十分轻易地捕捉精灵，并能提升精灵的天分。 曾经专供贵族使用，制作方法不明。",
-      "rounds": [
-        4
-      ],
-      "start_time": 1786363200000,
-      "end_time": 1786377300000,
-      "start_time_str": "2026-08-10 20:00:00",
-      "end_time_str": "2026-08-10 23:55:00"
-    }
-  ],
+  "current_items": [],
   "items": [
     {
       "name": "黄石榴石",
@@ -39,10 +22,10 @@
       "rounds": [
         1
       ],
-      "start_time": 1786320000000,
-      "end_time": 1786334100000,
-      "start_time_str": "2026-08-10 08:00:00",
-      "end_time_str": "2026-08-10 11:55:00"
+      "start_time": 1786406400000,
+      "end_time": 1786420500000,
+      "start_time_str": "2026-08-11 08:00:00",
+      "end_time_str": "2026-08-11 11:55:00"
     },
     {
       "name": "神奇的蛋",
@@ -55,10 +38,10 @@
       "rounds": [
         1
       ],
-      "start_time": 1786320000000,
-      "end_time": 1786334100000,
-      "start_time_str": "2026-08-10 08:00:00",
-      "end_time_str": "2026-08-10 11:55:00"
+      "start_time": 1786406400000,
+      "end_time": 1786420500000,
+      "start_time_str": "2026-08-11 08:00:00",
+      "end_time_str": "2026-08-11 11:55:00"
     },
     {
       "name": "火系粉尘",
@@ -71,10 +54,10 @@
       "rounds": [
         1
       ],
-      "start_time": 1786320000000,
-      "end_time": 1786334100000,
-      "start_time_str": "2026-08-10 08:00:00",
-      "end_time_str": "2026-08-10 11:55:00"
+      "start_time": 1786406400000,
+      "end_time": 1786420500000,
+      "start_time_str": "2026-08-11 08:00:00",
+      "end_time_str": "2026-08-11 11:55:00"
     },
     {
       "name": "国王球",
@@ -87,10 +70,10 @@
       "rounds": [
         2
       ],
-      "start_time": 1786334400000,
-      "end_time": 1786348500000,
-      "start_time_str": "2026-08-10 12:00:00",
-      "end_time_str": "2026-08-10 15:55:00"
+      "start_time": 1786420800000,
+      "end_time": 1786434900000,
+      "start_time_str": "2026-08-11 12:00:00",
+      "end_time_str": "2026-08-11 15:55:00"
     },
     {
       "name": "神奇的蛋",
@@ -103,10 +86,10 @@
       "rounds": [
         2
       ],
-      "start_time": 1786334400000,
-      "end_time": 1786348500000,
-      "start_time_str": "2026-08-10 12:00:00",
-      "end_time_str": "2026-08-10 15:55:00"
+      "start_time": 1786420800000,
+      "end_time": 1786434900000,
+      "start_time_str": "2026-08-11 12:00:00",
+      "end_time_str": "2026-08-11 15:55:00"
     },
     {
       "name": "翼系血脉秘药",
@@ -119,10 +102,10 @@
       "rounds": [
         3
       ],
-      "start_time": 1786348800000,
-      "end_time": 1786362900000,
-      "start_time_str": "2026-08-10 16:00:00",
-      "end_time_str": "2026-08-10 19:55:00"
+      "start_time": 1786435200000,
+      "end_time": 1786449300000,
+      "start_time_str": "2026-08-11 16:00:00",
+      "end_time_str": "2026-08-11 19:55:00"
     },
     {
       "name": "冰系粉尘",
@@ -135,10 +118,10 @@
       "rounds": [
         3
       ],
-      "start_time": 1786348800000,
-      "end_time": 1786362900000,
-      "start_time_str": "2026-08-10 16:00:00",
-      "end_time_str": "2026-08-10 19:55:00"
+      "start_time": 1786435200000,
+      "end_time": 1786449300000,
+      "start_time_str": "2026-08-11 16:00:00",
+      "end_time_str": "2026-08-11 19:55:00"
     },
     {
       "name": "萌系粉尘",
@@ -151,10 +134,10 @@
       "rounds": [
         3
       ],
-      "start_time": 1786348800000,
-      "end_time": 1786362900000,
-      "start_time_str": "2026-08-10 16:00:00",
-      "end_time_str": "2026-08-10 19:55:00"
+      "start_time": 1786435200000,
+      "end_time": 1786449300000,
+      "start_time_str": "2026-08-11 16:00:00",
+      "end_time_str": "2026-08-11 19:55:00"
     },
     {
       "name": "国王球",
@@ -167,10 +150,10 @@
       "rounds": [
         4
       ],
-      "start_time": 1786363200000,
-      "end_time": 1786377300000,
-      "start_time_str": "2026-08-10 20:00:00",
-      "end_time_str": "2026-08-10 23:55:00"
+      "start_time": 1786449600000,
+      "end_time": 1786463700000,
+      "start_time_str": "2026-08-11 20:00:00",
+      "end_time_str": "2026-08-11 23:55:00"
     }
   ]
 }
