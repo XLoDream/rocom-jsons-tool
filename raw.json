@@ -1,32 +1,15 @@
 {
   "sourceUrl": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetchedAt": "2026-08-13T13:36:01.639Z",
+  "fetchedAt": "2026-08-13T17:05:11.351Z",
   "timezone": "Asia/Shanghai",
-  "status": "open",
-  "round": 4,
-  "startedAtBeijing": "2026-08-13 20:00:00",
-  "nextRefreshBeijing": "2026-08-14 00:00:00",
-  "durationHours": 4,
+  "status": "closed",
+  "round": null,
+  "startedAtBeijing": null,
+  "nextRefreshBeijing": "2026-08-14 08:00:00",
+  "durationHours": 0,
   "merchantPosition": "",
   "live": true,
-  "current_items": [
-    {
-      "name": "幽系粉尘",
-      "price": "500",
-      "priceRaw": "500",
-      "limit": "100",
-      "image": "https://patchwiki.biligame.com/images/rocom/thumb/2/20/okbnyp4feg52iaxuijvjzv6wodaqjmi.png/100px-100126.png",
-      "category": "炼金材料",
-      "description": "常见的炼金材料，蕴含少量幽系魔法，是合成技能石的主要触媒。",
-      "rounds": [
-        4
-      ],
-      "start_time": 1786622400000,
-      "end_time": 1786636500000,
-      "start_time_str": "2026-08-13 20:00:00",
-      "end_time_str": "2026-08-13 23:55:00"
-    }
-  ],
+  "current_items": [],
   "items": [
     {
       "name": "紫莲刚玉",
@@ -39,10 +22,10 @@
       "rounds": [
         1
       ],
-      "start_time": 1786579200000,
-      "end_time": 1786593300000,
-      "start_time_str": "2026-08-13 08:00:00",
-      "end_time_str": "2026-08-13 11:55:00"
+      "start_time": 1786665600000,
+      "end_time": 1786679700000,
+      "start_time_str": "2026-08-14 08:00:00",
+      "end_time_str": "2026-08-14 11:55:00"
     },
     {
       "name": "虫系血脉秘药",
@@ -55,10 +38,10 @@
       "rounds": [
         1
       ],
-      "start_time": 1786579200000,
-      "end_time": 1786593300000,
-      "start_time_str": "2026-08-13 08:00:00",
-      "end_time_str": "2026-08-13 11:55:00"
+      "start_time": 1786665600000,
+      "end_time": 1786679700000,
+      "start_time_str": "2026-08-14 08:00:00",
+      "end_time_str": "2026-08-14 11:55:00"
     },
     {
       "name": "魔力果",
@@ -71,10 +54,10 @@
       "rounds": [
         1
       ],
-      "start_time": 1786579200000,
-      "end_time": 1786593300000,
-      "start_time_str": "2026-08-13 08:00:00",
-      "end_time_str": "2026-08-13 11:55:00"
+      "start_time": 1786665600000,
+      "end_time": 1786679700000,
+      "start_time_str": "2026-08-14 08:00:00",
+      "end_time_str": "2026-08-14 11:55:00"
     },
     {
       "name": "黑晶琉璃",
@@ -87,10 +70,10 @@
       "rounds": [
         2
       ],
-      "start_time": 1786593600000,
-      "end_time": 1786607700000,
-      "start_time_str": "2026-08-13 12:00:00",
-      "end_time_str": "2026-08-13 15:55:00"
+      "start_time": 1786680000000,
+      "end_time": 1786694100000,
+      "start_time_str": "2026-08-14 12:00:00",
+      "end_time_str": "2026-08-14 15:55:00"
     },
     {
       "name": "幽系粉尘",
@@ -103,10 +86,10 @@
       "rounds": [
         2
       ],
-      "start_time": 1786593600000,
-      "end_time": 1786607700000,
-      "start_time_str": "2026-08-13 12:00:00",
-      "end_time_str": "2026-08-13 15:55:00"
+      "start_time": 1786680000000,
+      "end_time": 1786694100000,
+      "start_time_str": "2026-08-14 12:00:00",
+      "end_time_str": "2026-08-14 15:55:00"
     },
     {
       "name": "萌系粉尘",
@@ -119,10 +102,10 @@
       "rounds": [
         2
       ],
-      "start_time": 1786593600000,
-      "end_time": 1786607700000,
-      "start_time_str": "2026-08-13 12:00:00",
-      "end_time_str": "2026-08-13 15:55:00"
+      "start_time": 1786680000000,
+      "end_time": 1786694100000,
+      "start_time_str": "2026-08-14 12:00:00",
+      "end_time_str": "2026-08-14 15:55:00"
     },
     {
       "name": "普通粉尘",
@@ -135,10 +118,10 @@
       "rounds": [
         3
       ],
-      "start_time": 1786608000000,
-      "end_time": 1786622100000,
-      "start_time_str": "2026-08-13 16:00:00",
-      "end_time_str": "2026-08-13 19:55:00"
+      "start_time": 1786694400000,
+      "end_time": 1786708500000,
+      "start_time_str": "2026-08-14 16:00:00",
+      "end_time_str": "2026-08-14 19:55:00"
     },
     {
       "name": "龙系粉尘",
@@ -151,10 +134,10 @@
       "rounds": [
         3
       ],
-      "start_time": 1786608000000,
-      "end_time": 1786622100000,
-      "start_time_str": "2026-08-13 16:00:00",
-      "end_time_str": "2026-08-13 19:55:00"
+      "start_time": 1786694400000,
+      "end_time": 1786708500000,
+      "start_time_str": "2026-08-14 16:00:00",
+      "end_time_str": "2026-08-14 19:55:00"
     },
     {
       "name": "幽系粉尘",
@@ -167,10 +150,10 @@
       "rounds": [
         4
       ],
-      "start_time": 1786622400000,
-      "end_time": 1786636500000,
-      "start_time_str": "2026-08-13 20:00:00",
-      "end_time_str": "2026-08-13 23:55:00"
+      "start_time": 1786708800000,
+      "end_time": 1786722900000,
+      "start_time_str": "2026-08-14 20:00:00",
+      "end_time_str": "2026-08-14 23:55:00"
     }
   ]
 }
