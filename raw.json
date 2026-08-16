@@ -1,15 +1,124 @@
 {
   "sourceUrl": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetchedAt": "2026-08-15T20:32:20.369Z",
+  "fetchedAt": "2026-08-16T08:39:31.300Z",
   "timezone": "Asia/Shanghai",
-  "status": "closed",
-  "round": null,
-  "startedAtBeijing": null,
-  "nextRefreshBeijing": "2026-08-16 08:00:00",
-  "durationHours": 0,
+  "status": "open",
+  "round": 3,
+  "startedAtBeijing": "2026-08-16 16:00:00",
+  "nextRefreshBeijing": "2026-08-16 20:00:00",
+  "durationHours": 4,
   "merchantPosition": "",
   "live": true,
-  "current_items": [],
+  "current_items": [
+    {
+      "name": "残缺魔镜",
+      "price": "480000",
+      "priceRaw": "48w",
+      "limit": "1",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/1/10/nssw03fprximwkgzjqdaq8r8pq3q3le.png/100px-100716.png",
+      "category": "性格影响修改道具",
+      "description": "可以修正性格带来的负面影响。 “我不知道，我将消除自己。”",
+      "rounds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "start_time": 1786867200000,
+      "end_time": 1786881300000,
+      "start_time_str": "2026-08-16 16:00:00",
+      "end_time_str": "2026-08-16 19:55:00"
+    },
+    {
+      "name": "适格钥匙",
+      "price": "320000",
+      "priceRaw": "32w",
+      "limit": "1",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/1/11/6l0tqz9gytrn8r10gk5bgcj4rxnfx57.png/100px-100714.png",
+      "category": "个体资质属性修改道具",
+      "description": "可以修改精灵的个体资质种类，或激活一条初始值为8的新资质。",
+      "rounds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "start_time": 1786867200000,
+      "end_time": 1786881300000,
+      "start_time_str": "2026-08-16 16:00:00",
+      "end_time_str": "2026-08-16 19:55:00"
+    },
+    {
+      "name": "能力钥匙",
+      "price": "160000",
+      "priceRaw": "16w",
+      "limit": "6",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/2/2d/749ek9zbh79fvll7f5vtpxa33dz3mze.png/100px-100009.png",
+      "category": "个体资质增强道具",
+      "description": "对初始个体资质小于10的精灵使用，使该项个体资质的初始值增加1。",
+      "rounds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "start_time": 1786867200000,
+      "end_time": 1786881300000,
+      "start_time_str": "2026-08-16 16:00:00",
+      "end_time_str": "2026-08-16 19:55:00"
+    },
+    {
+      "name": "网兜球",
+      "price": "3000",
+      "priceRaw": "3000",
+      "limit": "100",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/4/4b/60uvwzet0brdqlhtoa89domccpbo4hr.png/100px-Img_wangdiuqiu.png",
+      "category": "特制咕噜球",
+      "description": "更适合用来捕捉水系、翼系精灵。 轻快的球，能直线飞跃很远的距离。",
+      "rounds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "start_time": 1786867200000,
+      "end_time": 1786881300000,
+      "start_time_str": "2026-08-16 16:00:00",
+      "end_time_str": "2026-08-16 19:55:00"
+    },
+    {
+      "name": "魔力果",
+      "price": "6000",
+      "priceRaw": "6000",
+      "limit": "20",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/c/c6/5qe6rcdtfxe1gsrvgj3lrn033athx9p.png/100px-100668.png",
+      "category": "精灵喂养材料",
+      "description": "不太常见的果实，精灵食用后获得能力提升。 “精灵食物营养科的研究总是不见进展，这么多年了精灵还在吃果子。”",
+      "rounds": [
+        3
+      ],
+      "start_time": 1786867200000,
+      "end_time": 1786881300000,
+      "start_time_str": "2026-08-16 16:00:00",
+      "end_time_str": "2026-08-16 19:55:00"
+    },
+    {
+      "name": "草系粉尘",
+      "price": "500",
+      "priceRaw": "500",
+      "limit": "100",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/3/32/2k88qbruf464xxyf02grnmkvun59h0c.png/100px-100121.png",
+      "category": "炼金材料",
+      "description": "常见的炼金材料，蕴含少量草系魔法，是合成技能石的主要触媒。",
+      "rounds": [
+        3
+      ],
+      "start_time": 1786867200000,
+      "end_time": 1786881300000,
+      "start_time_str": "2026-08-16 16:00:00",
+      "end_time_str": "2026-08-16 19:55:00"
+    }
+  ],
   "items": [
     {
       "name": "残缺魔镜",
@@ -69,22 +178,6 @@
       "end_time_str": "2026-08-16 11:55:00"
     },
     {
-      "name": "蓝晶碧玺",
-      "price": "1000",
-      "priceRaw": "1000",
-      "limit": "100",
-      "image": "https://patchwiki.biligame.com/images/rocom/thumb/c/c5/k8wzdzechd88qs9bxuvcnyg0pv4tzl4.png/100px-100681.png",
-      "category": "炼金材料",
-      "description": "比较常用的炼金材料，可以用来合成咕噜球和技能石。 某些晶石蜗会产出珍贵的粉蓝色碧玺，为此商人翻着花样研究晶石蜗的食谱喜好。",
-      "rounds": [
-        1
-      ],
-      "start_time": 1786838400000,
-      "end_time": 1786852500000,
-      "start_time_str": "2026-08-16 08:00:00",
-      "end_time_str": "2026-08-16 11:55:00"
-    },
-    {
       "name": "网兜球",
       "price": "3000",
       "priceRaw": "3000",
@@ -120,6 +213,22 @@
       "end_time_str": "2026-08-16 11:55:00"
     },
     {
+      "name": "神奇的蛋",
+      "price": "36000",
+      "priceRaw": "36000",
+      "limit": "5",
+      "image": "https://img.71acg.net/whd~hykb/comm/hd_admin_upload_2982_5390e1a946446e64d929ad89a3ad3eed.png",
+      "category": "精灵蛋",
+      "description": "蕴含着难以捉摸的魔力，不知道可以孵化出哪种精灵。",
+      "rounds": [
+        1
+      ],
+      "start_time": 1786838400000,
+      "end_time": 1786852500000,
+      "start_time_str": "2026-08-16 08:00:00",
+      "end_time_str": "2026-08-16 11:55:00"
+    },
+    {
       "name": "残缺魔镜",
       "price": "480000",
       "priceRaw": "48w",
@@ -212,29 +321,13 @@
       "end_time_str": "2026-08-16 15:55:00"
     },
     {
-      "name": "神奇的蛋",
-      "price": "36000",
-      "priceRaw": "36000",
-      "limit": "5",
-      "image": "https://img.71acg.net/whd~hykb/comm/hd_admin_upload_2982_5390e1a946446e64d929ad89a3ad3eed.png",
-      "category": "精灵蛋",
-      "description": "蕴含着难以捉摸的魔力，不知道可以孵化出哪种精灵。",
-      "rounds": [
-        2
-      ],
-      "start_time": 1786852800000,
-      "end_time": 1786866900000,
-      "start_time_str": "2026-08-16 12:00:00",
-      "end_time_str": "2026-08-16 15:55:00"
-    },
-    {
-      "name": "幽系粉尘",
-      "price": "500",
-      "priceRaw": "500",
-      "limit": "100",
-      "image": "https://patchwiki.biligame.com/images/rocom/thumb/2/20/okbnyp4feg52iaxuijvjzv6wodaqjmi.png/100px-100126.png",
-      "category": "炼金材料",
-      "description": "常见的炼金材料，蕴含少量幽系魔法，是合成技能石的主要触媒。",
+      "name": "萌系血脉秘药",
+      "price": "160000",
+      "priceRaw": "16w",
+      "limit": "3",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/a/a9/f93cxq6r5qxkkt6cs8hc2jaecsj3yy9.png/100px-Xuemai_meng.png",
+      "category": "血脉修改道具",
+      "description": "能唤醒血脉力量的远古秘药，使精灵获得萌系血脉。 “一段失落的秘密将被重拾。”",
       "rounds": [
         2
       ],
@@ -320,13 +413,29 @@
       "end_time_str": "2026-08-16 19:55:00"
     },
     {
-      "name": "幻系粉尘",
+      "name": "魔力果",
+      "price": "6000",
+      "priceRaw": "6000",
+      "limit": "20",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/c/c6/5qe6rcdtfxe1gsrvgj3lrn033athx9p.png/100px-100668.png",
+      "category": "精灵喂养材料",
+      "description": "不太常见的果实，精灵食用后获得能力提升。 “精灵食物营养科的研究总是不见进展，这么多年了精灵还在吃果子。”",
+      "rounds": [
+        3
+      ],
+      "start_time": 1786867200000,
+      "end_time": 1786881300000,
+      "start_time_str": "2026-08-16 16:00:00",
+      "end_time_str": "2026-08-16 19:55:00"
+    },
+    {
+      "name": "草系粉尘",
       "price": "500",
       "priceRaw": "500",
       "limit": "100",
-      "image": "https://patchwiki.biligame.com/images/rocom/thumb/2/24/sgt0lc5llwfvlcmjhr1awhwq6st35fj.png/100px-100139.png",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/3/32/2k88qbruf464xxyf02grnmkvun59h0c.png/100px-100121.png",
       "category": "炼金材料",
-      "description": "常见的炼金材料，蕴含少量幻系魔法，是合成技能石的主要触媒。",
+      "description": "常见的炼金材料，蕴含少量草系魔法，是合成技能石的主要触媒。",
       "rounds": [
         3
       ],
@@ -404,22 +513,6 @@
         1,
         2,
         3,
-        4
-      ],
-      "start_time": 1786881600000,
-      "end_time": 1786895700000,
-      "start_time_str": "2026-08-16 20:00:00",
-      "end_time_str": "2026-08-16 23:55:00"
-    },
-    {
-      "name": "魔力果",
-      "price": "6000",
-      "priceRaw": "6000",
-      "limit": "20",
-      "image": "https://patchwiki.biligame.com/images/rocom/thumb/c/c6/5qe6rcdtfxe1gsrvgj3lrn033athx9p.png/100px-100668.png",
-      "category": "精灵喂养材料",
-      "description": "不太常见的果实，精灵食用后获得能力提升。 “精灵食物营养科的研究总是不见进展，这么多年了精灵还在吃果子。”",
-      "rounds": [
         4
       ],
       "start_time": 1786881600000,
