@@ -1,32 +1,15 @@
 {
   "sourceUrl": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetchedAt": "2026-08-25T13:03:33.971Z",
+  "fetchedAt": "2026-08-25T16:48:12.662Z",
   "timezone": "Asia/Shanghai",
-  "status": "open",
-  "round": 4,
-  "startedAtBeijing": "2026-08-25 20:00:00",
-  "nextRefreshBeijing": "2026-08-26 00:00:00",
-  "durationHours": 4,
+  "status": "closed",
+  "round": null,
+  "startedAtBeijing": null,
+  "nextRefreshBeijing": "2026-08-26 08:00:00",
+  "durationHours": 0,
   "merchantPosition": "",
   "live": true,
-  "current_items": [
-    {
-      "name": "魔力果",
-      "price": "6000",
-      "priceRaw": "6000",
-      "limit": "20",
-      "image": "https://patchwiki.biligame.com/images/rocom/thumb/c/c6/5qe6rcdtfxe1gsrvgj3lrn033athx9p.png/100px-100668.png",
-      "category": "精灵喂养材料",
-      "description": "不太常见的果实，精灵食用后获得能力提升。 “精灵食物营养科的研究总是不见进展，这么多年了精灵还在吃果子。”",
-      "rounds": [
-        4
-      ],
-      "start_time": 1787659200000,
-      "end_time": 1787673300000,
-      "start_time_str": "2026-08-25 20:00:00",
-      "end_time_str": "2026-08-25 23:55:00"
-    }
-  ],
+  "current_items": [],
   "items": [
     {
       "name": "神奇的蛋",
@@ -39,10 +22,10 @@
       "rounds": [
         1
       ],
-      "start_time": 1787616000000,
-      "end_time": 1787630100000,
-      "start_time_str": "2026-08-25 08:00:00",
-      "end_time_str": "2026-08-25 11:55:00"
+      "start_time": 1787702400000,
+      "end_time": 1787716500000,
+      "start_time_str": "2026-08-26 08:00:00",
+      "end_time_str": "2026-08-26 11:55:00"
     },
     {
       "name": "黑晶琉璃",
@@ -55,10 +38,10 @@
       "rounds": [
         2
       ],
-      "start_time": 1787630400000,
-      "end_time": 1787644500000,
-      "start_time_str": "2026-08-25 12:00:00",
-      "end_time_str": "2026-08-25 15:55:00"
+      "start_time": 1787716800000,
+      "end_time": 1787730900000,
+      "start_time_str": "2026-08-26 12:00:00",
+      "end_time_str": "2026-08-26 15:55:00"
     },
     {
       "name": "紫莲刚玉",
@@ -71,10 +54,10 @@
       "rounds": [
         2
       ],
-      "start_time": 1787630400000,
-      "end_time": 1787644500000,
-      "start_time_str": "2026-08-25 12:00:00",
-      "end_time_str": "2026-08-25 15:55:00"
+      "start_time": 1787716800000,
+      "end_time": 1787730900000,
+      "start_time_str": "2026-08-26 12:00:00",
+      "end_time_str": "2026-08-26 15:55:00"
     },
     {
       "name": "幻系血脉秘药",
@@ -87,10 +70,10 @@
       "rounds": [
         2
       ],
-      "start_time": 1787630400000,
-      "end_time": 1787644500000,
-      "start_time_str": "2026-08-25 12:00:00",
-      "end_time_str": "2026-08-25 15:55:00"
+      "start_time": 1787716800000,
+      "end_time": 1787730900000,
+      "start_time_str": "2026-08-26 12:00:00",
+      "end_time_str": "2026-08-26 15:55:00"
     },
     {
       "name": "魔力果",
@@ -103,10 +86,10 @@
       "rounds": [
         3
       ],
-      "start_time": 1787644800000,
-      "end_time": 1787658900000,
-      "start_time_str": "2026-08-25 16:00:00",
-      "end_time_str": "2026-08-25 19:55:00"
+      "start_time": 1787731200000,
+      "end_time": 1787745300000,
+      "start_time_str": "2026-08-26 16:00:00",
+      "end_time_str": "2026-08-26 19:55:00"
     },
     {
       "name": "魔力果",
@@ -119,10 +102,10 @@
       "rounds": [
         4
       ],
-      "start_time": 1787659200000,
-      "end_time": 1787673300000,
-      "start_time_str": "2026-08-25 20:00:00",
-      "end_time_str": "2026-08-25 23:55:00"
+      "start_time": 1787745600000,
+      "end_time": 1787759700000,
+      "start_time_str": "2026-08-26 20:00:00",
+      "end_time_str": "2026-08-26 23:55:00"
     }
   ]
 }
