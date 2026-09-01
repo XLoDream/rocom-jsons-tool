@@ -1,18 +1,52 @@
 {
   "sourceUrl": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetchedAt": "2026-08-31T21:20:58.275Z",
+  "fetchedAt": "2026-09-01T13:20:57.139Z",
   "timezone": "Asia/Shanghai",
-  "status": "closed",
-  "round": null,
-  "startedAtBeijing": null,
-  "nextRefreshBeijing": "2026-09-01 08:00:00",
-  "nextActiveBeijing": "2026-09-01 08:00:00",
-  "durationHours": 0,
+  "status": "open",
+  "round": 4,
+  "startedAtBeijing": "2026-09-01 20:00:00",
+  "nextRefreshBeijing": "2026-09-02 00:00:00",
+  "nextActiveBeijing": "2026-09-02 08:00:00",
+  "durationHours": 4,
   "merchantPosition": "",
   "stale": false,
-  "expectedRound": 0,
+  "expectedRound": 4,
   "lastFetchError": "",
   "live": true,
-  "current_items": [],
-  "items": []
+  "current_items": [
+    {
+      "name": "神奇的蛋",
+      "price": "36000",
+      "priceRaw": "36000",
+      "limit": "5",
+      "image": "https://img.71acg.net/whd~hykb/comm/hd_admin_upload_2982_5390e1a946446e64d929ad89a3ad3eed.png",
+      "category": "精灵蛋",
+      "description": "蕴含着难以捉摸的魔力，不知道可以孵化出哪种精灵。",
+      "rounds": [
+        4
+      ],
+      "start_time": 1788264000000,
+      "end_time": 1788278100000,
+      "start_time_str": "2026-09-01 20:00:00",
+      "end_time_str": "2026-09-01 23:55:00"
+    }
+  ],
+  "items": [
+    {
+      "name": "神奇的蛋",
+      "price": "36000",
+      "priceRaw": "36000",
+      "limit": "5",
+      "image": "https://img.71acg.net/whd~hykb/comm/hd_admin_upload_2982_5390e1a946446e64d929ad89a3ad3eed.png",
+      "category": "精灵蛋",
+      "description": "蕴含着难以捉摸的魔力，不知道可以孵化出哪种精灵。",
+      "rounds": [
+        4
+      ],
+      "start_time": 1788264000000,
+      "end_time": 1788278100000,
+      "start_time_str": "2026-09-01 20:00:00",
+      "end_time_str": "2026-09-01 23:55:00"
+    }
+  ]
 }
