@@ -1,18 +1,84 @@
 {
   "sourceUrl": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetchedAt": "2026-09-09T22:20:05.338Z",
+  "fetchedAt": "2026-09-10T12:50:05.617Z",
   "timezone": "Asia/Shanghai",
-  "status": "closed",
-  "round": null,
-  "startedAtBeijing": null,
-  "nextRefreshBeijing": "2026-09-10 08:00:00",
-  "nextActiveBeijing": "2026-09-10 08:00:00",
-  "durationHours": 0,
+  "status": "open",
+  "round": 4,
+  "startedAtBeijing": "2026-09-10 20:00:00",
+  "nextRefreshBeijing": "2026-09-11 00:00:00",
+  "nextActiveBeijing": "2026-09-11 08:00:00",
+  "durationHours": 4,
   "merchantPosition": "",
   "stale": false,
-  "expectedRound": 0,
+  "expectedRound": 4,
   "lastFetchError": "",
   "live": true,
-  "current_items": [],
-  "items": []
+  "current_items": [
+    {
+      "name": "火系血脉秘药",
+      "price": "160000",
+      "priceRaw": "16w",
+      "limit": "3",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/5/58/qcen9i07u68symzdrga5qcli2wq6ws3.png/100px-Xuemai_huo.png",
+      "category": "血脉修改道具",
+      "description": "能唤醒血脉力量的远古秘药，使精灵获得火系血脉。 “一段失落的秘密将被重拾。”",
+      "rounds": [
+        4
+      ],
+      "start_time": 1789041600000,
+      "end_time": 1789055700000,
+      "start_time_str": "2026-09-10 20:00:00",
+      "end_time_str": "2026-09-10 23:55:00"
+    },
+    {
+      "name": "普通粉尘",
+      "price": "500",
+      "priceRaw": "500",
+      "limit": "100",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/f/f6/ls7hsygs9epizddf1xo4q9b2iu1dduu.png/100px-100127.png",
+      "category": "炼金材料",
+      "description": "常见的炼金材料，蕴含少量普通系魔法，是合成技能石的主要触媒。",
+      "rounds": [
+        4
+      ],
+      "start_time": 1789041600000,
+      "end_time": 1789055700000,
+      "start_time_str": "2026-09-10 20:00:00",
+      "end_time_str": "2026-09-10 23:55:00"
+    }
+  ],
+  "items": [
+    {
+      "name": "火系血脉秘药",
+      "price": "160000",
+      "priceRaw": "16w",
+      "limit": "3",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/5/58/qcen9i07u68symzdrga5qcli2wq6ws3.png/100px-Xuemai_huo.png",
+      "category": "血脉修改道具",
+      "description": "能唤醒血脉力量的远古秘药，使精灵获得火系血脉。 “一段失落的秘密将被重拾。”",
+      "rounds": [
+        4
+      ],
+      "start_time": 1789041600000,
+      "end_time": 1789055700000,
+      "start_time_str": "2026-09-10 20:00:00",
+      "end_time_str": "2026-09-10 23:55:00"
+    },
+    {
+      "name": "普通粉尘",
+      "price": "500",
+      "priceRaw": "500",
+      "limit": "100",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/f/f6/ls7hsygs9epizddf1xo4q9b2iu1dduu.png/100px-100127.png",
+      "category": "炼金材料",
+      "description": "常见的炼金材料，蕴含少量普通系魔法，是合成技能石的主要触媒。",
+      "rounds": [
+        4
+      ],
+      "start_time": 1789041600000,
+      "end_time": 1789055700000,
+      "start_time_str": "2026-09-10 20:00:00",
+      "end_time_str": "2026-09-10 23:55:00"
+    }
+  ]
 }
