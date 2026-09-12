@@ -1,18 +1,58 @@
 {
   "sourceUrl": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetchedAt": "2026-09-11T22:20:18.358Z",
+  "fetchedAt": "2026-09-12T12:00:20.992Z",
   "timezone": "Asia/Shanghai",
-  "status": "closed",
-  "round": null,
-  "startedAtBeijing": null,
-  "nextRefreshBeijing": "2026-09-12 08:00:00",
-  "nextActiveBeijing": "2026-09-12 08:00:00",
-  "durationHours": 0,
+  "status": "open",
+  "round": 4,
+  "startedAtBeijing": "2026-09-12 20:00:00",
+  "nextRefreshBeijing": "2026-09-13 00:00:00",
+  "nextActiveBeijing": "2026-09-13 08:00:00",
+  "durationHours": 4,
   "merchantPosition": "",
   "stale": false,
-  "expectedRound": 0,
+  "expectedRound": 4,
   "lastFetchError": "",
   "live": true,
-  "current_items": [],
-  "items": []
+  "current_items": [
+    {
+      "name": "暗星球",
+      "price": "3000",
+      "priceRaw": "3000",
+      "limit": "200",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/5/5a/hif6470l7ojdexwm72t9brp0f0x3h4x.png/100px-Img_daodanqiu.png",
+      "category": "特制咕噜球",
+      "description": "更适合用来捕捉幽系、恶系精灵。 爱捉弄的球，喜欢偷袭精灵。",
+      "rounds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "start_time": 1789214400000,
+      "end_time": 1789228500000,
+      "start_time_str": "2026-09-12 20:00:00",
+      "end_time_str": "2026-09-12 23:55:00"
+    }
+  ],
+  "items": [
+    {
+      "name": "暗星球",
+      "price": "3000",
+      "priceRaw": "3000",
+      "limit": "200",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/5/5a/hif6470l7ojdexwm72t9brp0f0x3h4x.png/100px-Img_daodanqiu.png",
+      "category": "特制咕噜球",
+      "description": "更适合用来捕捉幽系、恶系精灵。 爱捉弄的球，喜欢偷袭精灵。",
+      "rounds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "start_time": 1789214400000,
+      "end_time": 1789228500000,
+      "start_time_str": "2026-09-12 20:00:00",
+      "end_time_str": "2026-09-12 23:55:00"
+    }
+  ]
 }
