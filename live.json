@@ -1,23 +1,49 @@
 {
   "sourceUrl": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetchedAt": "2026-09-15T22:50:15.891Z",
+  "fetchedAt": "2026-09-16T13:21:04.083Z",
   "timezone": "Asia/Shanghai",
-  "status": "closed",
-  "round": null,
-  "startedAtBeijing": null,
-  "nextRefreshBeijing": "2026-09-16 08:00:00",
-  "nextActiveBeijing": "2026-09-16 08:00:00",
-  "durationHours": 0,
+  "status": "open",
+  "round": 4,
+  "startedAtBeijing": "2026-09-16 20:00:00",
+  "nextRefreshBeijing": "2026-09-17 00:00:00",
+  "nextActiveBeijing": "2026-09-17 08:00:00",
+  "durationHours": 4,
   "merchantPosition": "",
-  "items": [],
+  "items": [
+    {
+      "name": "魔力果",
+      "price": "6000",
+      "priceRaw": "6000",
+      "limit": "20",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/c/c6/5qe6rcdtfxe1gsrvgj3lrn033athx9p.png/100px-100668.png",
+      "category": "精灵喂养材料",
+      "description": "不太常见的果实，精灵食用后获得能力提升。 “精灵食物营养科的研究总是不见进展，这么多年了精灵还在吃果子。”",
+      "rounds": [
+        4
+      ]
+    }
+  ],
   "rounds": {
     "1": [],
     "2": [],
     "3": [],
-    "4": []
+    "4": [
+      {
+        "name": "魔力果",
+        "price": "6000",
+        "priceRaw": "6000",
+        "limit": "20",
+        "image": "https://patchwiki.biligame.com/images/rocom/thumb/c/c6/5qe6rcdtfxe1gsrvgj3lrn033athx9p.png/100px-100668.png",
+        "category": "精灵喂养材料",
+        "description": "不太常见的果实，精灵食用后获得能力提升。 “精灵食物营养科的研究总是不见进展，这么多年了精灵还在吃果子。”",
+        "rounds": [
+          4
+        ]
+      }
+    ]
   },
   "stale": false,
-  "expectedRound": 0,
+  "expectedRound": 4,
   "lastFetchError": "",
   "live": true
 }
