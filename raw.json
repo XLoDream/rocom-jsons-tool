@@ -1,18 +1,90 @@
 {
   "sourceUrl": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetchedAt": "2026-09-25T23:10:52.456Z",
+  "fetchedAt": "2026-09-26T12:50:52.332Z",
   "timezone": "Asia/Shanghai",
-  "status": "closed",
-  "round": null,
-  "startedAtBeijing": null,
-  "nextRefreshBeijing": "2026-09-26 08:00:00",
-  "nextActiveBeijing": "2026-09-26 08:00:00",
-  "durationHours": 0,
+  "status": "open",
+  "round": 4,
+  "startedAtBeijing": "2026-09-26 20:00:00",
+  "nextRefreshBeijing": "2026-09-27 00:00:00",
+  "nextActiveBeijing": "2026-09-27 08:00:00",
+  "durationHours": 4,
   "merchantPosition": "",
   "stale": false,
-  "expectedRound": 0,
+  "expectedRound": 4,
   "lastFetchError": "",
   "live": true,
-  "current_items": [],
-  "items": []
+  "current_items": [
+    {
+      "name": "网兜球",
+      "price": "3000",
+      "priceRaw": "3000",
+      "limit": "100",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/4/4b/60uvwzet0brdqlhtoa89domccpbo4hr.png/100px-Img_wangdiuqiu.png",
+      "category": "特制咕噜球",
+      "description": "更适合用来捕捉水系、翼系精灵。 轻快的球，能直线飞跃很远的距离。",
+      "rounds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "start_time": 1790424000000,
+      "end_time": 1790438100000,
+      "start_time_str": "2026-09-26 20:00:00",
+      "end_time_str": "2026-09-26 23:55:00"
+    },
+    {
+      "name": "魔力果",
+      "price": "6000",
+      "priceRaw": "6000",
+      "limit": "20",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/c/c6/5qe6rcdtfxe1gsrvgj3lrn033athx9p.png/100px-100668.png",
+      "category": "精灵喂养材料",
+      "description": "不太常见的果实，精灵食用后获得能力提升。 “精灵食物营养科的研究总是不见进展，这么多年了精灵还在吃果子。”",
+      "rounds": [
+        4
+      ],
+      "start_time": 1790424000000,
+      "end_time": 1790438100000,
+      "start_time_str": "2026-09-26 20:00:00",
+      "end_time_str": "2026-09-26 23:55:00"
+    }
+  ],
+  "items": [
+    {
+      "name": "网兜球",
+      "price": "3000",
+      "priceRaw": "3000",
+      "limit": "100",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/4/4b/60uvwzet0brdqlhtoa89domccpbo4hr.png/100px-Img_wangdiuqiu.png",
+      "category": "特制咕噜球",
+      "description": "更适合用来捕捉水系、翼系精灵。 轻快的球，能直线飞跃很远的距离。",
+      "rounds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "start_time": 1790424000000,
+      "end_time": 1790438100000,
+      "start_time_str": "2026-09-26 20:00:00",
+      "end_time_str": "2026-09-26 23:55:00"
+    },
+    {
+      "name": "魔力果",
+      "price": "6000",
+      "priceRaw": "6000",
+      "limit": "20",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/c/c6/5qe6rcdtfxe1gsrvgj3lrn033athx9p.png/100px-100668.png",
+      "category": "精灵喂养材料",
+      "description": "不太常见的果实，精灵食用后获得能力提升。 “精灵食物营养科的研究总是不见进展，这么多年了精灵还在吃果子。”",
+      "rounds": [
+        4
+      ],
+      "start_time": 1790424000000,
+      "end_time": 1790438100000,
+      "start_time_str": "2026-09-26 20:00:00",
+      "end_time_str": "2026-09-26 23:55:00"
+    }
+  ]
 }
