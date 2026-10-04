@@ -1,18 +1,128 @@
 {
   "sourceUrl": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetchedAt": "2026-10-03T22:40:45.707Z",
+  "fetchedAt": "2026-10-04T13:50:51.797Z",
   "timezone": "Asia/Shanghai",
-  "status": "closed",
-  "round": null,
-  "startedAtBeijing": null,
-  "nextRefreshBeijing": "2026-10-04 08:00:00",
-  "nextActiveBeijing": "2026-10-04 08:00:00",
-  "durationHours": 0,
+  "status": "open",
+  "round": 4,
+  "startedAtBeijing": "2026-10-04 20:00:00",
+  "nextRefreshBeijing": "2026-10-05 00:00:00",
+  "nextActiveBeijing": "2026-10-05 08:00:00",
+  "durationHours": 4,
   "merchantPosition": "",
   "stale": false,
-  "expectedRound": 0,
+  "expectedRound": 4,
   "lastFetchError": "",
   "live": true,
-  "current_items": [],
-  "items": []
+  "current_items": [
+    {
+      "name": "可可果球",
+      "price": "50",
+      "priceRaw": "50",
+      "limit": "30",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/d/d2/t2rpfj5xsrcxxwnwkrh43f3nczmt59f.png/100px-100825.png",
+      "category": "特制咕噜球",
+      "description": "天然的咕噜球，暂未研究出其炼制配方。 为庆祝可可果节而设计的咕噜球，闻起来有可可果的香甜气息。",
+      "rounds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "start_time": 1791115200000,
+      "end_time": 1791129300000,
+      "start_time_str": "2026-10-04 20:00:00",
+      "end_time_str": "2026-10-04 23:55:00"
+    },
+    {
+      "name": "美妙球",
+      "price": "3000",
+      "priceRaw": "3000",
+      "limit": "200",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/b/b0/6ywvdkywqprqvws7m4ogeldp9y19swt.png/100px-Img_haihaiqiu.png",
+      "category": "特制咕噜球",
+      "description": "更适合用来捕捉萌系、普通系的精灵。 活泼的球，开心的精灵会被吸引。",
+      "rounds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "start_time": 1791115200000,
+      "end_time": 1791129300000,
+      "start_time_str": "2026-10-04 20:00:00",
+      "end_time_str": "2026-10-04 23:55:00"
+    },
+    {
+      "name": "神奇的蛋",
+      "price": "36000",
+      "priceRaw": "36000",
+      "limit": "5",
+      "image": "https://img.71acg.net/whd~hykb/comm/hd_admin_upload_2982_5390e1a946446e64d929ad89a3ad3eed.png",
+      "category": "精灵蛋",
+      "description": "蕴含着难以捉摸的魔力，不知道可以孵化出哪种精灵。",
+      "rounds": [
+        4
+      ],
+      "start_time": 1791115200000,
+      "end_time": 1791129300000,
+      "start_time_str": "2026-10-04 20:00:00",
+      "end_time_str": "2026-10-04 23:55:00"
+    }
+  ],
+  "items": [
+    {
+      "name": "可可果球",
+      "price": "50",
+      "priceRaw": "50",
+      "limit": "30",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/d/d2/t2rpfj5xsrcxxwnwkrh43f3nczmt59f.png/100px-100825.png",
+      "category": "特制咕噜球",
+      "description": "天然的咕噜球，暂未研究出其炼制配方。 为庆祝可可果节而设计的咕噜球，闻起来有可可果的香甜气息。",
+      "rounds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "start_time": 1791115200000,
+      "end_time": 1791129300000,
+      "start_time_str": "2026-10-04 20:00:00",
+      "end_time_str": "2026-10-04 23:55:00"
+    },
+    {
+      "name": "美妙球",
+      "price": "3000",
+      "priceRaw": "3000",
+      "limit": "200",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/b/b0/6ywvdkywqprqvws7m4ogeldp9y19swt.png/100px-Img_haihaiqiu.png",
+      "category": "特制咕噜球",
+      "description": "更适合用来捕捉萌系、普通系的精灵。 活泼的球，开心的精灵会被吸引。",
+      "rounds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "start_time": 1791115200000,
+      "end_time": 1791129300000,
+      "start_time_str": "2026-10-04 20:00:00",
+      "end_time_str": "2026-10-04 23:55:00"
+    },
+    {
+      "name": "神奇的蛋",
+      "price": "36000",
+      "priceRaw": "36000",
+      "limit": "5",
+      "image": "https://img.71acg.net/whd~hykb/comm/hd_admin_upload_2982_5390e1a946446e64d929ad89a3ad3eed.png",
+      "category": "精灵蛋",
+      "description": "蕴含着难以捉摸的魔力，不知道可以孵化出哪种精灵。",
+      "rounds": [
+        4
+      ],
+      "start_time": 1791115200000,
+      "end_time": 1791129300000,
+      "start_time_str": "2026-10-04 20:00:00",
+      "end_time_str": "2026-10-04 23:55:00"
+    }
+  ]
 }
