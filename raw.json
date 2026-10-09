@@ -1,128 +1,18 @@
 {
   "sourceUrl": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetchedAt": "2026-10-09T15:10:40.860Z",
+  "fetchedAt": "2026-10-09T20:40:52.885Z",
   "timezone": "Asia/Shanghai",
-  "status": "open",
-  "round": 4,
-  "startedAtBeijing": "2026-10-09 20:00:00",
-  "nextRefreshBeijing": "2026-10-10 00:00:00",
+  "status": "closed",
+  "round": null,
+  "startedAtBeijing": null,
+  "nextRefreshBeijing": "2026-10-10 08:00:00",
   "nextActiveBeijing": "2026-10-10 08:00:00",
-  "durationHours": 4,
+  "durationHours": 0,
   "merchantPosition": "",
   "stale": false,
-  "expectedRound": 4,
+  "expectedRound": 0,
   "lastFetchError": "",
   "live": true,
-  "current_items": [
-    {
-      "name": "暗星球",
-      "price": "3000",
-      "priceRaw": "3000",
-      "limit": "200",
-      "image": "https://patchwiki.biligame.com/images/rocom/thumb/5/5a/hif6470l7ojdexwm72t9brp0f0x3h4x.png/100px-Img_daodanqiu.png",
-      "category": "特制咕噜球",
-      "description": "更适合用来捕捉幽系、恶系精灵。 爱捉弄的球，喜欢偷袭精灵。",
-      "rounds": [
-        1,
-        2,
-        3,
-        4
-      ],
-      "start_time": 1791547200000,
-      "end_time": 1791561300000,
-      "start_time_str": "2026-10-09 20:00:00",
-      "end_time_str": "2026-10-09 23:55:00"
-    },
-    {
-      "name": "淘沙球",
-      "price": "3000",
-      "priceRaw": "3000",
-      "limit": "100",
-      "image": "https://patchwiki.biligame.com/images/rocom/thumb/8/81/7pzswfbn9l7hip6ptdg7f2mo341ztui.png/100px-Img_shaliqiu.png",
-      "category": "特制咕噜球",
-      "description": "更适合用来捕捉地系、虫系的精灵。 沉重的球，没法扔太远。",
-      "rounds": [
-        1,
-        2,
-        3,
-        4
-      ],
-      "start_time": 1791547200000,
-      "end_time": 1791561300000,
-      "start_time_str": "2026-10-09 20:00:00",
-      "end_time_str": "2026-10-09 23:55:00"
-    },
-    {
-      "name": "蓝晶碧玺",
-      "price": "1000",
-      "priceRaw": "1000",
-      "limit": "100",
-      "image": "https://patchwiki.biligame.com/images/rocom/thumb/c/c5/k8wzdzechd88qs9bxuvcnyg0pv4tzl4.png/100px-100681.png",
-      "category": "炼金材料",
-      "description": "比较常用的炼金材料，可以用来合成咕噜球和技能石。 某些晶石蜗会产出珍贵的粉蓝色碧玺，为此商人翻着花样研究晶石蜗的食谱喜好。",
-      "rounds": [
-        4
-      ],
-      "start_time": 1791547200000,
-      "end_time": 1791561300000,
-      "start_time_str": "2026-10-09 20:00:00",
-      "end_time_str": "2026-10-09 23:55:00"
-    }
-  ],
-  "items": [
-    {
-      "name": "暗星球",
-      "price": "3000",
-      "priceRaw": "3000",
-      "limit": "200",
-      "image": "https://patchwiki.biligame.com/images/rocom/thumb/5/5a/hif6470l7ojdexwm72t9brp0f0x3h4x.png/100px-Img_daodanqiu.png",
-      "category": "特制咕噜球",
-      "description": "更适合用来捕捉幽系、恶系精灵。 爱捉弄的球，喜欢偷袭精灵。",
-      "rounds": [
-        1,
-        2,
-        3,
-        4
-      ],
-      "start_time": 1791547200000,
-      "end_time": 1791561300000,
-      "start_time_str": "2026-10-09 20:00:00",
-      "end_time_str": "2026-10-09 23:55:00"
-    },
-    {
-      "name": "淘沙球",
-      "price": "3000",
-      "priceRaw": "3000",
-      "limit": "100",
-      "image": "https://patchwiki.biligame.com/images/rocom/thumb/8/81/7pzswfbn9l7hip6ptdg7f2mo341ztui.png/100px-Img_shaliqiu.png",
-      "category": "特制咕噜球",
-      "description": "更适合用来捕捉地系、虫系的精灵。 沉重的球，没法扔太远。",
-      "rounds": [
-        1,
-        2,
-        3,
-        4
-      ],
-      "start_time": 1791547200000,
-      "end_time": 1791561300000,
-      "start_time_str": "2026-10-09 20:00:00",
-      "end_time_str": "2026-10-09 23:55:00"
-    },
-    {
-      "name": "蓝晶碧玺",
-      "price": "1000",
-      "priceRaw": "1000",
-      "limit": "100",
-      "image": "https://patchwiki.biligame.com/images/rocom/thumb/c/c5/k8wzdzechd88qs9bxuvcnyg0pv4tzl4.png/100px-100681.png",
-      "category": "炼金材料",
-      "description": "比较常用的炼金材料，可以用来合成咕噜球和技能石。 某些晶石蜗会产出珍贵的粉蓝色碧玺，为此商人翻着花样研究晶石蜗的食谱喜好。",
-      "rounds": [
-        4
-      ],
-      "start_time": 1791547200000,
-      "end_time": 1791561300000,
-      "start_time_str": "2026-10-09 20:00:00",
-      "end_time_str": "2026-10-09 23:55:00"
-    }
-  ]
+  "current_items": [],
+  "items": []
 }
