@@ -1,23 +1,73 @@
 {
   "sourceUrl": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetchedAt": "2026-10-12T17:40:12.278Z",
+  "fetchedAt": "2026-10-13T01:50:12.680Z",
   "timezone": "Asia/Shanghai",
-  "status": "closed",
-  "round": null,
-  "startedAtBeijing": null,
-  "nextRefreshBeijing": "2026-10-13 08:00:00",
-  "nextActiveBeijing": "2026-10-13 08:00:00",
-  "durationHours": 0,
+  "status": "open",
+  "round": 1,
+  "startedAtBeijing": "2026-10-13 08:00:00",
+  "nextRefreshBeijing": "2026-10-13 12:00:00",
+  "nextActiveBeijing": "2026-10-13 12:00:00",
+  "durationHours": 4,
   "merchantPosition": "",
-  "items": [],
+  "items": [
+    {
+      "name": "紫莲刚玉",
+      "price": "1000",
+      "priceRaw": "1000",
+      "limit": "100",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/9/9c/s7ej54xr4magmv0h0zag15jah6avwlc.png/100px-100682.png",
+      "category": "炼金材料",
+      "description": "比较常用的炼金材料，可以用来合成咕噜球和技能石。 紫雀花王朝的贵族相信这是复活与不朽的象征，常常将紫莲刚玉制作成护身符随身携带。",
+      "rounds": [
+        1
+      ]
+    },
+    {
+      "name": "毒系粉尘",
+      "price": "500",
+      "priceRaw": "500",
+      "limit": "100",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/4/41/qgthc06nxeq4r9tzejgwwox7qtqp86w.png/100px-100133.png",
+      "category": "炼金材料",
+      "description": "常见的炼金材料，蕴含少量毒系魔法，是合成技能石的主要触媒。",
+      "rounds": [
+        1
+      ]
+    }
+  ],
   "rounds": {
-    "1": [],
+    "1": [
+      {
+        "name": "紫莲刚玉",
+        "price": "1000",
+        "priceRaw": "1000",
+        "limit": "100",
+        "image": "https://patchwiki.biligame.com/images/rocom/thumb/9/9c/s7ej54xr4magmv0h0zag15jah6avwlc.png/100px-100682.png",
+        "category": "炼金材料",
+        "description": "比较常用的炼金材料，可以用来合成咕噜球和技能石。 紫雀花王朝的贵族相信这是复活与不朽的象征，常常将紫莲刚玉制作成护身符随身携带。",
+        "rounds": [
+          1
+        ]
+      },
+      {
+        "name": "毒系粉尘",
+        "price": "500",
+        "priceRaw": "500",
+        "limit": "100",
+        "image": "https://patchwiki.biligame.com/images/rocom/thumb/4/41/qgthc06nxeq4r9tzejgwwox7qtqp86w.png/100px-100133.png",
+        "category": "炼金材料",
+        "description": "常见的炼金材料，蕴含少量毒系魔法，是合成技能石的主要触媒。",
+        "rounds": [
+          1
+        ]
+      }
+    ],
     "2": [],
     "3": [],
     "4": []
   },
   "stale": false,
-  "expectedRound": 0,
+  "expectedRound": 1,
   "lastFetchError": "",
   "live": true
 }
