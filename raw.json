@@ -1,18 +1,122 @@
 {
   "sourceUrl": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetchedAt": "2026-10-15T22:50:31.949Z",
+  "fetchedAt": "2026-10-16T13:00:32.117Z",
   "timezone": "Asia/Shanghai",
-  "status": "closed",
-  "round": null,
-  "startedAtBeijing": null,
-  "nextRefreshBeijing": "2026-10-16 08:00:00",
-  "nextActiveBeijing": "2026-10-16 08:00:00",
-  "durationHours": 0,
+  "status": "open",
+  "round": 4,
+  "startedAtBeijing": "2026-10-16 20:00:00",
+  "nextRefreshBeijing": "2026-10-17 00:00:00",
+  "nextActiveBeijing": "2026-10-17 08:00:00",
+  "durationHours": 4,
   "merchantPosition": "",
   "stale": false,
-  "expectedRound": 0,
+  "expectedRound": 4,
   "lastFetchError": "",
   "live": true,
-  "current_items": [],
-  "items": []
+  "current_items": [
+    {
+      "name": "美妙球",
+      "price": "3000",
+      "priceRaw": "3000",
+      "limit": "200",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/b/b0/6ywvdkywqprqvws7m4ogeldp9y19swt.png/100px-Img_haihaiqiu.png",
+      "category": "特制咕噜球",
+      "description": "更适合用来捕捉萌系、普通系的精灵。 活泼的球，开心的精灵会被吸引。",
+      "rounds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "start_time": 1792152000000,
+      "end_time": 1792166100000,
+      "start_time_str": "2026-10-16 20:00:00",
+      "end_time_str": "2026-10-16 23:55:00"
+    },
+    {
+      "name": "紫莲刚玉",
+      "price": "1000",
+      "priceRaw": "1000",
+      "limit": "100",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/9/9c/s7ej54xr4magmv0h0zag15jah6avwlc.png/100px-100682.png",
+      "category": "炼金材料",
+      "description": "比较常用的炼金材料，可以用来合成咕噜球和技能石。 紫雀花王朝的贵族相信这是复活与不朽的象征，常常将紫莲刚玉制作成护身符随身携带。",
+      "rounds": [
+        4
+      ],
+      "start_time": 1792152000000,
+      "end_time": 1792166100000,
+      "start_time_str": "2026-10-16 20:00:00",
+      "end_time_str": "2026-10-16 23:55:00"
+    },
+    {
+      "name": "龙系粉尘",
+      "price": "500",
+      "priceRaw": "500",
+      "limit": "100",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/a/ac/jhbsu0fzhq55ivqu89qz81366owvkki.png/100px-100131.png",
+      "category": "炼金材料",
+      "description": "常见的炼金材料，蕴含少量龙系魔法，是合成技能石的主要触媒。",
+      "rounds": [
+        4
+      ],
+      "start_time": 1792152000000,
+      "end_time": 1792166100000,
+      "start_time_str": "2026-10-16 20:00:00",
+      "end_time_str": "2026-10-16 23:55:00"
+    }
+  ],
+  "items": [
+    {
+      "name": "美妙球",
+      "price": "3000",
+      "priceRaw": "3000",
+      "limit": "200",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/b/b0/6ywvdkywqprqvws7m4ogeldp9y19swt.png/100px-Img_haihaiqiu.png",
+      "category": "特制咕噜球",
+      "description": "更适合用来捕捉萌系、普通系的精灵。 活泼的球，开心的精灵会被吸引。",
+      "rounds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "start_time": 1792152000000,
+      "end_time": 1792166100000,
+      "start_time_str": "2026-10-16 20:00:00",
+      "end_time_str": "2026-10-16 23:55:00"
+    },
+    {
+      "name": "紫莲刚玉",
+      "price": "1000",
+      "priceRaw": "1000",
+      "limit": "100",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/9/9c/s7ej54xr4magmv0h0zag15jah6avwlc.png/100px-100682.png",
+      "category": "炼金材料",
+      "description": "比较常用的炼金材料，可以用来合成咕噜球和技能石。 紫雀花王朝的贵族相信这是复活与不朽的象征，常常将紫莲刚玉制作成护身符随身携带。",
+      "rounds": [
+        4
+      ],
+      "start_time": 1792152000000,
+      "end_time": 1792166100000,
+      "start_time_str": "2026-10-16 20:00:00",
+      "end_time_str": "2026-10-16 23:55:00"
+    },
+    {
+      "name": "龙系粉尘",
+      "price": "500",
+      "priceRaw": "500",
+      "limit": "100",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/a/ac/jhbsu0fzhq55ivqu89qz81366owvkki.png/100px-100131.png",
+      "category": "炼金材料",
+      "description": "常见的炼金材料，蕴含少量龙系魔法，是合成技能石的主要触媒。",
+      "rounds": [
+        4
+      ],
+      "start_time": 1792152000000,
+      "end_time": 1792166100000,
+      "start_time_str": "2026-10-16 20:00:00",
+      "end_time_str": "2026-10-16 23:55:00"
+    }
+  ]
 }
