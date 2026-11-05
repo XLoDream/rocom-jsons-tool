@@ -1,23 +1,55 @@
 {
   "sourceUrl": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetchedAt": "2026-11-04T16:01:03.779Z",
+  "fetchedAt": "2026-11-05T00:41:01.316Z",
   "timezone": "Asia/Shanghai",
-  "status": "closed",
-  "round": null,
-  "startedAtBeijing": null,
-  "nextRefreshBeijing": "2026-11-05 08:00:00",
-  "nextActiveBeijing": "2026-11-05 08:00:00",
-  "durationHours": 0,
+  "status": "open",
+  "round": 1,
+  "startedAtBeijing": "2026-11-05 08:00:00",
+  "nextRefreshBeijing": "2026-11-05 12:00:00",
+  "nextActiveBeijing": "2026-11-05 12:00:00",
+  "durationHours": 4,
   "merchantPosition": "",
-  "items": [],
+  "items": [
+    {
+      "name": "捣蛋糖果*30",
+      "price": "5",
+      "priceRaw": "5",
+      "limit": "1",
+      "image": "https://img.71acg.net/whd~hykb/comm/hd_admin_upload_2982_580c087952586ebaa33b4dbc33235196.png",
+      "category": "活动货币",
+      "description": "裹着诡趣糖衣的魔力糖果，甜意之下藏着恶作剧的魔法。收下糖果，开启这场这场王国里的捣蛋狂欢吧~",
+      "rounds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
   "rounds": {
-    "1": [],
+    "1": [
+      {
+        "name": "捣蛋糖果*30",
+        "price": "5",
+        "priceRaw": "5",
+        "limit": "1",
+        "image": "https://img.71acg.net/whd~hykb/comm/hd_admin_upload_2982_580c087952586ebaa33b4dbc33235196.png",
+        "category": "活动货币",
+        "description": "裹着诡趣糖衣的魔力糖果，甜意之下藏着恶作剧的魔法。收下糖果，开启这场这场王国里的捣蛋狂欢吧~",
+        "rounds": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ],
     "2": [],
     "3": [],
     "4": []
   },
   "stale": false,
-  "expectedRound": 0,
+  "expectedRound": 1,
   "lastFetchError": "",
   "live": true
 }
