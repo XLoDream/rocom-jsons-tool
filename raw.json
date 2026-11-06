@@ -1,18 +1,90 @@
 {
   "sourceUrl": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetchedAt": "2026-11-05T16:21:01.663Z",
+  "fetchedAt": "2026-11-06T00:51:00.573Z",
   "timezone": "Asia/Shanghai",
-  "status": "closed",
-  "round": null,
-  "startedAtBeijing": null,
-  "nextRefreshBeijing": "2026-11-06 08:00:00",
-  "nextActiveBeijing": "2026-11-06 08:00:00",
-  "durationHours": 0,
+  "status": "open",
+  "round": 1,
+  "startedAtBeijing": "2026-11-06 08:00:00",
+  "nextRefreshBeijing": "2026-11-06 12:00:00",
+  "nextActiveBeijing": "2026-11-06 12:00:00",
+  "durationHours": 4,
   "merchantPosition": "",
   "stale": false,
-  "expectedRound": 0,
+  "expectedRound": 1,
   "lastFetchError": "",
   "live": true,
-  "current_items": [],
-  "items": []
+  "current_items": [
+    {
+      "name": "蓝晶碧玺",
+      "price": "1000",
+      "priceRaw": "1000",
+      "limit": "100",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/c/c5/k8wzdzechd88qs9bxuvcnyg0pv4tzl4.png/100px-100681.png",
+      "category": "炼金材料",
+      "description": "比较常用的炼金材料，可以用来合成咕噜球和技能石。 某些晶石蜗会产出珍贵的粉蓝色碧玺，为此商人翻着花样研究晶石蜗的食谱喜好。",
+      "rounds": [
+        1
+      ],
+      "start_time": 1793923200000,
+      "end_time": 1793937300000,
+      "start_time_str": "2026-11-06 08:00:00",
+      "end_time_str": "2026-11-06 11:55:00"
+    },
+    {
+      "name": "网兜球",
+      "price": "3000",
+      "priceRaw": "3000",
+      "limit": "100",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/4/4b/60uvwzet0brdqlhtoa89domccpbo4hr.png/100px-Img_wangdiuqiu.png",
+      "category": "特制咕噜球",
+      "description": "更适合用来捕捉水系、翼系精灵。 轻快的球，能直线飞跃很远的距离。",
+      "rounds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "start_time": 1793923200000,
+      "end_time": 1793937300000,
+      "start_time_str": "2026-11-06 08:00:00",
+      "end_time_str": "2026-11-06 11:55:00"
+    }
+  ],
+  "items": [
+    {
+      "name": "蓝晶碧玺",
+      "price": "1000",
+      "priceRaw": "1000",
+      "limit": "100",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/c/c5/k8wzdzechd88qs9bxuvcnyg0pv4tzl4.png/100px-100681.png",
+      "category": "炼金材料",
+      "description": "比较常用的炼金材料，可以用来合成咕噜球和技能石。 某些晶石蜗会产出珍贵的粉蓝色碧玺，为此商人翻着花样研究晶石蜗的食谱喜好。",
+      "rounds": [
+        1
+      ],
+      "start_time": 1793923200000,
+      "end_time": 1793937300000,
+      "start_time_str": "2026-11-06 08:00:00",
+      "end_time_str": "2026-11-06 11:55:00"
+    },
+    {
+      "name": "网兜球",
+      "price": "3000",
+      "priceRaw": "3000",
+      "limit": "100",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/4/4b/60uvwzet0brdqlhtoa89domccpbo4hr.png/100px-Img_wangdiuqiu.png",
+      "category": "特制咕噜球",
+      "description": "更适合用来捕捉水系、翼系精灵。 轻快的球，能直线飞跃很远的距离。",
+      "rounds": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "start_time": 1793923200000,
+      "end_time": 1793937300000,
+      "start_time_str": "2026-11-06 08:00:00",
+      "end_time_str": "2026-11-06 11:55:00"
+    }
+  ]
 }
