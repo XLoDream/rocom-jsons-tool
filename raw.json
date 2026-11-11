@@ -1,18 +1,52 @@
 {
   "sourceUrl": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetchedAt": "2026-11-10T16:11:00.340Z",
+  "fetchedAt": "2026-11-11T00:31:01.297Z",
   "timezone": "Asia/Shanghai",
-  "status": "closed",
-  "round": null,
-  "startedAtBeijing": null,
-  "nextRefreshBeijing": "2026-11-11 08:00:00",
-  "nextActiveBeijing": "2026-11-11 08:00:00",
-  "durationHours": 0,
+  "status": "open",
+  "round": 1,
+  "startedAtBeijing": "2026-11-11 08:00:00",
+  "nextRefreshBeijing": "2026-11-11 12:00:00",
+  "nextActiveBeijing": "2026-11-11 12:00:00",
+  "durationHours": 4,
   "merchantPosition": "",
   "stale": false,
-  "expectedRound": 0,
+  "expectedRound": 1,
   "lastFetchError": "",
   "live": true,
-  "current_items": [],
-  "items": []
+  "current_items": [
+    {
+      "name": "虫系粉尘",
+      "price": "500",
+      "priceRaw": "500",
+      "limit": "100",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/c/c0/ihsb7b9pcs210dtaiswlsaxuhe2jfaa.png/100px-100134.png",
+      "category": "炼金材料",
+      "description": "常见的炼金材料，蕴含少量虫系魔法，是合成技能石的主要触媒。",
+      "rounds": [
+        1
+      ],
+      "start_time": 1794355200000,
+      "end_time": 1794369300000,
+      "start_time_str": "2026-11-11 08:00:00",
+      "end_time_str": "2026-11-11 11:55:00"
+    }
+  ],
+  "items": [
+    {
+      "name": "虫系粉尘",
+      "price": "500",
+      "priceRaw": "500",
+      "limit": "100",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/c/c0/ihsb7b9pcs210dtaiswlsaxuhe2jfaa.png/100px-100134.png",
+      "category": "炼金材料",
+      "description": "常见的炼金材料，蕴含少量虫系魔法，是合成技能石的主要触媒。",
+      "rounds": [
+        1
+      ],
+      "start_time": 1794355200000,
+      "end_time": 1794369300000,
+      "start_time_str": "2026-11-11 08:00:00",
+      "end_time_str": "2026-11-11 11:55:00"
+    }
+  ]
 }
