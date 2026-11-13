@@ -1,23 +1,79 @@
 {
   "sourceUrl": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetchedAt": "2026-11-12T16:41:01.094Z",
+  "fetchedAt": "2026-11-13T00:51:00.823Z",
   "timezone": "Asia/Shanghai",
-  "status": "closed",
-  "round": null,
-  "startedAtBeijing": null,
-  "nextRefreshBeijing": "2026-11-13 08:00:00",
-  "nextActiveBeijing": "2026-11-13 08:00:00",
-  "durationHours": 0,
+  "status": "open",
+  "round": 1,
+  "startedAtBeijing": "2026-11-13 08:00:00",
+  "nextRefreshBeijing": "2026-11-13 12:00:00",
+  "nextActiveBeijing": "2026-11-13 12:00:00",
+  "durationHours": 4,
   "merchantPosition": "",
-  "items": [],
+  "items": [
+    {
+      "name": "黄石榴石",
+      "price": "1000",
+      "priceRaw": "1000",
+      "limit": "100",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/f/f3/c5x5f0lgk33ly801m8w1n9aod8ny4sh.png/100px-100683.png",
+      "category": "炼金材料",
+      "description": "比较常用的炼金材料，可以用来合成咕噜球和技能石。 特殊的晶体排列解构，精灵打喷嚏可能会令这种晶体发生爆炸。",
+      "rounds": [
+        1
+      ]
+    },
+    {
+      "name": "变幻球",
+      "price": "3000",
+      "priceRaw": "3000",
+      "limit": "200",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/9/97/t58zrpfzxopvj3ke3oi3v57mf6k05s0.png/100px-Img_miwuqiu.png",
+      "category": "特制咕噜球",
+      "description": "更适合用来捕捉幻系、机械系的精灵。 难以揣测的球。",
+      "rounds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
   "rounds": {
-    "1": [],
+    "1": [
+      {
+        "name": "黄石榴石",
+        "price": "1000",
+        "priceRaw": "1000",
+        "limit": "100",
+        "image": "https://patchwiki.biligame.com/images/rocom/thumb/f/f3/c5x5f0lgk33ly801m8w1n9aod8ny4sh.png/100px-100683.png",
+        "category": "炼金材料",
+        "description": "比较常用的炼金材料，可以用来合成咕噜球和技能石。 特殊的晶体排列解构，精灵打喷嚏可能会令这种晶体发生爆炸。",
+        "rounds": [
+          1
+        ]
+      },
+      {
+        "name": "变幻球",
+        "price": "3000",
+        "priceRaw": "3000",
+        "limit": "200",
+        "image": "https://patchwiki.biligame.com/images/rocom/thumb/9/97/t58zrpfzxopvj3ke3oi3v57mf6k05s0.png/100px-Img_miwuqiu.png",
+        "category": "特制咕噜球",
+        "description": "更适合用来捕捉幻系、机械系的精灵。 难以揣测的球。",
+        "rounds": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ],
     "2": [],
     "3": [],
     "4": []
   },
   "stale": false,
-  "expectedRound": 0,
+  "expectedRound": 1,
   "lastFetchError": "",
   "live": true
 }
