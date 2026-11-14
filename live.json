@@ -1,23 +1,103 @@
 {
   "sourceUrl": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetchedAt": "2026-11-13T21:51:01.101Z",
+  "fetchedAt": "2026-11-14T14:51:00.821Z",
   "timezone": "Asia/Shanghai",
-  "status": "closed",
-  "round": null,
-  "startedAtBeijing": null,
-  "nextRefreshBeijing": "2026-11-14 08:00:00",
-  "nextActiveBeijing": "2026-11-14 08:00:00",
-  "durationHours": 0,
+  "status": "open",
+  "round": 4,
+  "startedAtBeijing": "2026-11-14 20:00:00",
+  "nextRefreshBeijing": "2026-11-15 00:00:00",
+  "nextActiveBeijing": "2026-11-15 08:00:00",
+  "durationHours": 4,
   "merchantPosition": "",
-  "items": [],
+  "items": [
+    {
+      "name": "变幻球",
+      "price": "3000",
+      "priceRaw": "3000",
+      "limit": "200",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/9/97/t58zrpfzxopvj3ke3oi3v57mf6k05s0.png/100px-Img_miwuqiu.png",
+      "category": "特制咕噜球",
+      "description": "更适合用来捕捉幻系、机械系的精灵。 难以揣测的球。",
+      "rounds": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "name": "紫莲刚玉",
+      "price": "1000",
+      "priceRaw": "1000",
+      "limit": "100",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/9/9c/s7ej54xr4magmv0h0zag15jah6avwlc.png/100px-100682.png",
+      "category": "炼金材料",
+      "description": "比较常用的炼金材料，可以用来合成咕噜球和技能石。 紫雀花王朝的贵族相信这是复活与不朽的象征，常常将紫莲刚玉制作成护身符随身携带。",
+      "rounds": [
+        4
+      ]
+    },
+    {
+      "name": "奇异血脉秘药",
+      "price": "160000",
+      "priceRaw": "16w",
+      "limit": "3",
+      "image": "https://patchwiki.biligame.com/images/rocom/thumb/a/ab/eg7zj03u487p1l3f91z499w1nxdzac1.png/100px-Xuemai_qiyixuemai.png",
+      "category": "血脉修改道具",
+      "description": "修改血脉的秘药，使精灵获得“奇异血脉”。",
+      "rounds": [
+        4
+      ]
+    }
+  ],
   "rounds": {
     "1": [],
     "2": [],
     "3": [],
-    "4": []
+    "4": [
+      {
+        "name": "变幻球",
+        "price": "3000",
+        "priceRaw": "3000",
+        "limit": "200",
+        "image": "https://patchwiki.biligame.com/images/rocom/thumb/9/97/t58zrpfzxopvj3ke3oi3v57mf6k05s0.png/100px-Img_miwuqiu.png",
+        "category": "特制咕噜球",
+        "description": "更适合用来捕捉幻系、机械系的精灵。 难以揣测的球。",
+        "rounds": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "name": "紫莲刚玉",
+        "price": "1000",
+        "priceRaw": "1000",
+        "limit": "100",
+        "image": "https://patchwiki.biligame.com/images/rocom/thumb/9/9c/s7ej54xr4magmv0h0zag15jah6avwlc.png/100px-100682.png",
+        "category": "炼金材料",
+        "description": "比较常用的炼金材料，可以用来合成咕噜球和技能石。 紫雀花王朝的贵族相信这是复活与不朽的象征，常常将紫莲刚玉制作成护身符随身携带。",
+        "rounds": [
+          4
+        ]
+      },
+      {
+        "name": "奇异血脉秘药",
+        "price": "160000",
+        "priceRaw": "16w",
+        "limit": "3",
+        "image": "https://patchwiki.biligame.com/images/rocom/thumb/a/ab/eg7zj03u487p1l3f91z499w1nxdzac1.png/100px-Xuemai_qiyixuemai.png",
+        "category": "血脉修改道具",
+        "description": "修改血脉的秘药，使精灵获得“奇异血脉”。",
+        "rounds": [
+          4
+        ]
+      }
+    ]
   },
   "stale": false,
-  "expectedRound": 0,
+  "expectedRound": 4,
   "lastFetchError": "",
   "live": true
 }
