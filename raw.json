@@ -1,18 +1,52 @@
 {
   "sourceUrl": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetchedAt": "2026-11-18T17:01:00.774Z",
+  "fetchedAt": "2026-11-19T01:41:01.387Z",
   "timezone": "Asia/Shanghai",
-  "status": "closed",
-  "round": null,
-  "startedAtBeijing": null,
-  "nextRefreshBeijing": "2026-11-19 08:00:00",
-  "nextActiveBeijing": "2026-11-19 08:00:00",
-  "durationHours": 0,
+  "status": "open",
+  "round": 1,
+  "startedAtBeijing": "2026-11-19 08:00:00",
+  "nextRefreshBeijing": "2026-11-19 12:00:00",
+  "nextActiveBeijing": "2026-11-19 12:00:00",
+  "durationHours": 4,
   "merchantPosition": "",
   "stale": false,
-  "expectedRound": 0,
+  "expectedRound": 1,
   "lastFetchError": "",
   "live": true,
-  "current_items": [],
-  "items": []
+  "current_items": [
+    {
+      "name": "祝福项坠",
+      "price": "800000",
+      "priceRaw": "80w",
+      "limit": "1",
+      "image": "https://img.71acg.net/whd~hykb/comm/hd_admin_upload_2982_56aa7234a2be18aae2069541da77b555.png",
+      "category": "珍稀货币",
+      "description": "进行精灵赐福的必要道具。能容纳祝福的神秘容器。",
+      "rounds": [
+        1
+      ],
+      "start_time": 1795046400000,
+      "end_time": 1795060500000,
+      "start_time_str": "2026-11-19 08:00:00",
+      "end_time_str": "2026-11-19 11:55:00"
+    }
+  ],
+  "items": [
+    {
+      "name": "祝福项坠",
+      "price": "800000",
+      "priceRaw": "80w",
+      "limit": "1",
+      "image": "https://img.71acg.net/whd~hykb/comm/hd_admin_upload_2982_56aa7234a2be18aae2069541da77b555.png",
+      "category": "珍稀货币",
+      "description": "进行精灵赐福的必要道具。能容纳祝福的神秘容器。",
+      "rounds": [
+        1
+      ],
+      "start_time": 1795046400000,
+      "end_time": 1795060500000,
+      "start_time_str": "2026-11-19 08:00:00",
+      "end_time_str": "2026-11-19 11:55:00"
+    }
+  ]
 }
