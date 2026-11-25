@@ -1,84 +1,18 @@
 {
   "sourceUrl": "https://www.onebiji.com/hykb_tools/comm/lkwgmerchant/preview.php?id=1&immgj=0",
-  "fetchedAt": "2026-11-25T03:21:00.448Z",
+  "fetchedAt": "2026-11-25T18:31:00.306Z",
   "timezone": "Asia/Shanghai",
-  "status": "open",
-  "round": 1,
-  "startedAtBeijing": "2026-11-25 08:00:00",
-  "nextRefreshBeijing": "2026-11-25 12:00:00",
-  "nextActiveBeijing": "2026-11-25 12:00:00",
-  "durationHours": 4,
+  "status": "closed",
+  "round": null,
+  "startedAtBeijing": null,
+  "nextRefreshBeijing": "2026-11-26 08:00:00",
+  "nextActiveBeijing": "2026-11-26 08:00:00",
+  "durationHours": 0,
   "merchantPosition": "",
   "stale": false,
-  "expectedRound": 1,
+  "expectedRound": 0,
   "lastFetchError": "",
   "live": true,
-  "current_items": [
-    {
-      "name": "紫莲刚玉",
-      "price": "1000",
-      "priceRaw": "1000",
-      "limit": "100",
-      "image": "https://patchwiki.biligame.com/images/rocom/thumb/9/9c/s7ej54xr4magmv0h0zag15jah6avwlc.png/100px-100682.png",
-      "category": "炼金材料",
-      "description": "比较常用的炼金材料，可以用来合成咕噜球和技能石。 紫雀花王朝的贵族相信这是复活与不朽的象征，常常将紫莲刚玉制作成护身符随身携带。",
-      "rounds": [
-        1
-      ],
-      "start_time": 1795564800000,
-      "end_time": 1795578900000,
-      "start_time_str": "2026-11-25 08:00:00",
-      "end_time_str": "2026-11-25 11:55:00"
-    },
-    {
-      "name": "幽系血脉秘药",
-      "price": "160000",
-      "priceRaw": "16w",
-      "limit": "3",
-      "image": "https://patchwiki.biligame.com/images/rocom/thumb/3/31/79r65pjlgs4boduwx17vu94sqn0i2t6.png/100px-Xuemai_youling.png",
-      "category": "血脉修改道具",
-      "description": "能唤醒血脉力量的远古秘药，使精灵获得幽系血脉。 “一段失落的秘密将被重拾。”",
-      "rounds": [
-        1
-      ],
-      "start_time": 1795564800000,
-      "end_time": 1795578900000,
-      "start_time_str": "2026-11-25 08:00:00",
-      "end_time_str": "2026-11-25 11:55:00"
-    }
-  ],
-  "items": [
-    {
-      "name": "紫莲刚玉",
-      "price": "1000",
-      "priceRaw": "1000",
-      "limit": "100",
-      "image": "https://patchwiki.biligame.com/images/rocom/thumb/9/9c/s7ej54xr4magmv0h0zag15jah6avwlc.png/100px-100682.png",
-      "category": "炼金材料",
-      "description": "比较常用的炼金材料，可以用来合成咕噜球和技能石。 紫雀花王朝的贵族相信这是复活与不朽的象征，常常将紫莲刚玉制作成护身符随身携带。",
-      "rounds": [
-        1
-      ],
-      "start_time": 1795564800000,
-      "end_time": 1795578900000,
-      "start_time_str": "2026-11-25 08:00:00",
-      "end_time_str": "2026-11-25 11:55:00"
-    },
-    {
-      "name": "幽系血脉秘药",
-      "price": "160000",
-      "priceRaw": "16w",
-      "limit": "3",
-      "image": "https://patchwiki.biligame.com/images/rocom/thumb/3/31/79r65pjlgs4boduwx17vu94sqn0i2t6.png/100px-Xuemai_youling.png",
-      "category": "血脉修改道具",
-      "description": "能唤醒血脉力量的远古秘药，使精灵获得幽系血脉。 “一段失落的秘密将被重拾。”",
-      "rounds": [
-        1
-      ],
-      "start_time": 1795564800000,
-      "end_time": 1795578900000,
-      "start_time_str": "2026-11-25 08:00:00",
-      "end_time_str": "2026-11-25 11:55:00"
-    }
-  ]
+  "current_items": [],
+  "items": []
 }
